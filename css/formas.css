@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "LED BOARD REVERSED";
+    src: url("../fonts/led.TTF");
+}
+
+.sinal{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 50%;
+}
+
+#base{
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#timer{
+    font-family: "LED BOARD REVERSED";
+    font-size: 200px; 
+    color: rgb(54, 54, 54); 
+}
