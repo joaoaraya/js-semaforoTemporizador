@@ -3,7 +3,15 @@
     src: url("../fonts/led.TTF");
 }
 
+body{
+    display: grid;
+    place-items: center;
+    justify-items: center;
+}
+
 .sinal{
+    position: relative;
+    margin: 50px;
     width: 100px;
     height: 100px;
     background-color: rgb(54, 54, 54);
@@ -11,6 +19,7 @@
 }
 
 #base{
+    justify-content: center;    
     width: 600px;
     height: 500px;
     background-color: black;
@@ -18,6 +27,9 @@
 }
 
 #timer{
+    position: relative;
+    top: -500px;
+    left: 220px;
     font-family: "LED BOARD REVERSED";
     font-size: 200px; 
     color: rgb(54, 54, 54); 
